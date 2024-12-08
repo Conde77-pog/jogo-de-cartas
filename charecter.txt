@@ -1,0 +1,49 @@
+1. Arkon, The Storm Herald
+Role: Aggressive Attacker
+Ability: Gains +2 Attack for every weather-altering effect in play.
+Lore: A master of elemental storms, Arkon wields thunder and lightning to devastate his foes.
+
+2. Lyra, Shadow Dancer
+Role: Stealth Specialist
+Ability: Cannot be targeted by opponent effects for two turns after being played.
+Lore: A mysterious assassin who uses the shadows to cloak her every move.
+
+3. Magnus, The Forge Guardian
+Role: Tank/Defender
+Ability: Takes only half damage when defending other units.
+Lore: Created in the ancient forge, Magnus protects his allies with unyielding metal.
+
+4. Zelia, Time Weaver
+Role: Control Specialist
+Ability: Rewind an opponent's last action, returning the played card to their hand.
+Lore: A keeper of time’s flow, Zelia ensures the timeline stays in her favor.
+
+5. Kiro, Wildheart Beastmaster
+Role: Summoner
+Ability: Summons a random Beast unit each time another ally card is destroyed.
+Lore: In tune with nature, Kiro commands an army of loyal beasts.
+
+6. Emberis, The Fireborn
+Role: Glass Cannon
+Ability: Deals 5 damage to all units when destroyed.
+Lore: A being of pure flame, Emberis burns everything in its path, even at the cost of its own existence.
+
+7. Aurora, The Celestial Archer
+Role: Sniper
+Ability: Deals double damage to the farthest enemy unit.
+Lore: With arrows blessed by the stars, Aurora never misses her mark.
+
+8. Drax, The Bone Collector
+Role: Resilient Tank
+Ability: Gains +1 Health for every defeated enemy.
+Lore: A necromancer’s experiment gone wrong, Drax grows stronger with every fallen foe.
+
+9. Seraphina, Light’s Champion
+Role: Healer/Support
+Ability: Restores 3 health to all allies each turn she’s in play.
+Lore: A beacon of hope, Seraphina channels divine energy to protect her companions.
+
+10. Vorthak, The Void Reaver
+Role: Area Damage Dealer
+Ability: Damages all enemy units for 2 every turn it’s in play.
+Lore: Born from the void, Vorthak’s presence drains life from everything around him.
