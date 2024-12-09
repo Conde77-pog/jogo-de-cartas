@@ -7,7 +7,8 @@ class Card:
     def __init__(self, full_path, name):
         self.name = name.split(".")[0]
         self.texture = pygame.image.load(full_path) 
-        self.texture = pygame.transform.scale(self.texture,(100,150))
+        self.texture = pygame.transform.scale(self.texture,(150,200))
+
 
 pygame.init()
 BG = pygame.image.load("assets/Background.png")
@@ -21,12 +22,10 @@ def play(deck):
     
     # Preload background and text to avoid redrawing them every frame.
     BG = pygame.image.load("assets/Background.png")
-    PLAY_TEXT = get_font(45).render("This is the PLAY screen.", True, "White")
-    PLAY_RECT = PLAY_TEXT.get_rect(center=(640, 260))
 
     # Create button once before the loop.
     PLAY_BACK = Button(
-        image=pygame.image.load("assets/Rect.png"), pos=(640, 460),
+        image=pygame.image.load("assets/Rect.png"), pos=(100, 100),
         text_input="BACK", font=get_font(75), base_color="White", hovering_color="Green"
     )
 
@@ -36,7 +35,6 @@ def play(deck):
 
         # Draw static elements only once and minimize changes to the display.
         screen.blit(BG, (0, 0))
-        screen.blit(PLAY_TEXT, PLAY_RECT)
 
         # Update button color and check for hover effect.
         PLAY_BACK.changeColor(PLAY_MOUSE_POS)
@@ -49,6 +47,9 @@ def play(deck):
             if event.type == pygame.MOUSEBUTTONDOWN:
                 if PLAY_BACK.checkForInput(PLAY_MOUSE_POS):
                     main()
+
+        for i in range(0, len(deck)):
+            screen.blit(deck[i].texture, (400 + (100 * i), 650))
 
         pygame.display.update()
 
